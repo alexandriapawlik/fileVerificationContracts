@@ -1,0 +1,130 @@
+
+FileRegistry(name, description)
+File(registry address, name, id, content hash, metadata hash, file type, etag)
+Receipt(registry address, id, content hash, metadata hash)
+
+
+
+registry: reg
+name
+description
+number of files
+
+
+files: file1
+upload date time
+file name
+file id
+get file hash
+get metadata hash
+content type
+etag
+number of receipts
+
+reg 
+number of files
+is registered file id
+get file address given id
+
+
+file: file2
+
+reg 
+number of files
+is registered file id
+get file address given id
+
+
+file: file3 (same hashes as file1)
+
+reg 
+number of files
+is registered file id
+get file address given id
+
+
+receipt: r1 (not changed)
+verification date time
+get file hash
+get metadata hash
+is valid
+is not changed
+
+file1
+get number of receipts
+
+
+receipt: r2 (changed)
+is valid
+is changed
+
+file1
+get number of receipts
+
+
+receipt: r3 (not changed)
+is valid
+is not changed
+
+file1
+get number of receipts
+
+
+
+
+1 not changed
+2 changed
+3 not changed
+
+file1 get receipt address before 1: r1
+file1 get receipt address at index 1: r2
+
+invalidate 2
+
+1 not changed
+2 not valid
+3 is changed
+
+file1 get number of receipts
+
+file1 get receipt address before 1: r1
+file1 get receipt address at index 1: r2
+
+
+
+
+receipt: r4 (matches original)
+is valid
+is changed
+
+file1
+get number of receipts
+
+
+
+1: not changed
+2: not valid
+3: changed
+4: changed
+
+invalidate 1, 3
+
+1: not valid
+2: not valid
+3: not valid
+4: not changed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
