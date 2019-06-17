@@ -18,7 +18,7 @@ Workflows
 
 Workflow Details
 ----------------
-![workflow details for application](stateTransitions.jpg)
+![workflow details for application](images/stateTransitions.jpg)
 
 ##### Key
-![workflow details diagram key](stateKey.jpg)
+![workflow details diagram key](images/stateKey.jpg)
