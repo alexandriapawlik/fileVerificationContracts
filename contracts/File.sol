@@ -8,14 +8,14 @@
 pragma solidity ^0.4.24;
 
 // interface
-import "./AFile.sol";
+import "./interfaces/IFile.sol";
 
 
 // FILE CONTRACT
 /////////////////////////////////////////////////////////////////
 
 
-contract File is AFile
+contract File is IFile
 {
   ///////////////// public data
 

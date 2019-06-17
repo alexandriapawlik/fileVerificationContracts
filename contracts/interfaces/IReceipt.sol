@@ -7,15 +7,15 @@
 
 pragma solidity ^0.4.24;
 
-import "./FileRegistry.sol";
-import "./File.sol";
+import "../FileRegistry.sol";
+import "../File.sol";
 
 
 // VERIFICATION RECEIPT INTERFACE
 /////////////////////////////////////////////////////////////////
 
 
-interface AReceipt
+interface IReceipt
 {
   ///////////////// accessible by blockchain users
 

@@ -7,14 +7,14 @@
 
 pragma solidity ^0.4.24;
 
-import "./FileRegistry.sol";
+import "../FileRegistry.sol";
 
 
 // FILE INTERFACE
 /////////////////////////////////////////////////////////////////
 
 
-interface AFile
+interface IFile
 {
   ///////////////// accessible by blockchain users
 

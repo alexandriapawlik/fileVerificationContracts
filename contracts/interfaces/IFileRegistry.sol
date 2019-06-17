@@ -12,7 +12,7 @@ pragma solidity ^0.4.24;
 /////////////////////////////////////////////////////////////////
 
 
-interface AFileRegistry
+interface IFileRegistry
 {
   ///////////////// accessible by blockchain users
 

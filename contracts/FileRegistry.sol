@@ -8,14 +8,14 @@
 pragma solidity ^0.4.24;
 
 // interface
-import "./AFileRegistry.sol";
+import "./interfaces/IFileRegistry.sol";
 
 
 // FILE REGISTRY CONTRACT
 /////////////////////////////////////////////////////////////////
 
 
-contract FileRegistry is AFileRegistry
+contract FileRegistry is IFileRegistry
 {
 	///////////////// public data
 

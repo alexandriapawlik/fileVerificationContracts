@@ -8,14 +8,14 @@
 pragma solidity ^0.4.24;
 
 // interface
-import "./AReceipt.sol";
+import "./interfaces/IReceipt.sol";
 
 
 // VERIFICATION RECEIPT CONTRACT
 /////////////////////////////////////////////////////////////////
 
 
-contract Receipt is AReceipt
+contract Receipt is IReceipt
 {
   ///////////////// public data
 
