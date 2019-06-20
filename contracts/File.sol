@@ -44,9 +44,6 @@ contract File is IFile
 	FileRegistry internal MyFileRegistry;
 	address internal RegistryAddress;
 
-	// verification receipt tracking (history)
-	ReceiptStruct[] internal History;
-
 	struct ReceiptStruct 
 	{ 
 		address ReceiptContractAddress;

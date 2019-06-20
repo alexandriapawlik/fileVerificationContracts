@@ -30,8 +30,6 @@ contract FileRegistry is IFileRegistry
   ///////////////// internal data
 
 
-	FileStruct[] internal Files;
-
 	struct FileStruct 
 	{ 
 		address FileContractAddress;
