@@ -196,14 +196,14 @@
     "absolutePath": "/Users/alexandriapawlik/Documents/Dev/AFGroup/fileVerificationContracts/contracts/interfaces/IFile.sol",
     "exportedSymbols": {
       "IFile": [
-        2531
+        2525
       ]
     },
-    "id": 2532,
+    "id": 2526,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2463,
+        "id": 2457,
         "literals": [
           "solidity",
           "^",
@@ -216,10 +216,10 @@
       {
         "absolutePath": "/Users/alexandriapawlik/Documents/Dev/AFGroup/fileVerificationContracts/contracts/FileRegistry.sol",
         "file": "../FileRegistry.sol",
-        "id": 2464,
+        "id": 2458,
         "nodeType": "ImportDirective",
-        "scope": 2532,
-        "sourceUnit": 1852,
+        "scope": 2526,
+        "sourceUnit": 1846,
         "src": "201:29:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -230,9 +230,9 @@
         "contractKind": "interface",
         "documentation": "//////////////////////////////////////////////////////////////",
         "fullyImplemented": false,
-        "id": 2531,
+        "id": 2525,
         "linearizedBaseContracts": [
-          2531
+          2525
         ],
         "name": "IFile",
         "nodeType": "ContractDefinition",
@@ -240,7 +240,7 @@
           {
             "body": null,
             "documentation": "////////////// accessible by blockchain users",
-            "id": 2467,
+            "id": 2461,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -248,19 +248,19 @@
             "name": "Delete",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2465,
+              "id": 2459,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "407:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2466,
+              "id": 2460,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "418:0:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "392:27:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -269,7 +269,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2470,
+            "id": 2464,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -277,19 +277,19 @@
             "name": "Update",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2468,
+              "id": 2462,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "492:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2469,
+              "id": 2463,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "508:0:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "477:32:4",
             "stateMutability": "pure",
             "superFunction": null,
@@ -298,7 +298,7 @@
           {
             "body": null,
             "documentation": "////////////// called by members of receipt array",
-            "id": 2477,
+            "id": 2471,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -306,15 +306,15 @@
             "name": "AddReceipt",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2473,
+              "id": 2467,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2472,
+                  "id": 2466,
                   "name": "ReceiptContractAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2477,
+                  "scope": 2471,
                   "src": "642:30:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -323,7 +323,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2471,
+                    "id": 2465,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "642:7:4",
@@ -340,15 +340,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2476,
+              "id": 2470,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2475,
+                  "id": 2469,
                   "name": "ReceiptDT",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2477,
+                  "scope": 2471,
                   "src": "692:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -357,7 +357,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2474,
+                    "id": 2468,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "692:6:4",
@@ -372,7 +372,7 @@
               ],
               "src": "691:18:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "622:88:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -381,7 +381,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2484,
+            "id": 2478,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -389,15 +389,15 @@
             "name": "GetReceiptDTAtIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2480,
+              "id": 2474,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2479,
+                  "id": 2473,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2484,
+                  "scope": 2478,
                   "src": "816:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -406,7 +406,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2478,
+                    "id": 2472,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "816:4:4",
@@ -423,15 +423,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2483,
+              "id": 2477,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2482,
+                  "id": 2476,
                   "name": "at",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2484,
+                  "scope": 2478,
                   "src": "849:9:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -440,7 +440,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2481,
+                    "id": 2475,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "849:6:4",
@@ -455,7 +455,7 @@
               ],
               "src": "848:11:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "787:73:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -464,7 +464,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2491,
+            "id": 2485,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -472,15 +472,15 @@
             "name": "GetReceiptAddressBefore",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2487,
+              "id": 2481,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2486,
+                  "id": 2480,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2491,
+                  "scope": 2485,
                   "src": "1066:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -489,7 +489,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2485,
+                    "id": 2479,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1066:4:4",
@@ -506,15 +506,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2490,
+              "id": 2484,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2489,
+                  "id": 2483,
                   "name": "last",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2491,
+                  "scope": 2485,
                   "src": "1099:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -523,7 +523,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2488,
+                    "id": 2482,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1099:7:4",
@@ -538,7 +538,7 @@
               ],
               "src": "1098:14:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1033:80:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -547,7 +547,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2498,
+            "id": 2492,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -555,15 +555,15 @@
             "name": "GetReceiptAddressAtIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2494,
+              "id": 2488,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2493,
+                  "id": 2487,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2492,
                   "src": "1246:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -572,7 +572,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2492,
+                    "id": 2486,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1246:4:4",
@@ -589,15 +589,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2497,
+              "id": 2491,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2496,
+                  "id": 2490,
                   "name": "at",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2492,
                   "src": "1277:10:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -606,7 +606,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2495,
+                    "id": 2489,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1277:7:4",
@@ -621,7 +621,7 @@
               ],
               "src": "1276:12:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1212:77:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -630,7 +630,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2503,
+            "id": 2497,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -638,22 +638,22 @@
             "name": "GetNumberOfReceipts",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2499,
+              "id": 2493,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1359:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2502,
+              "id": 2496,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2501,
+                  "id": 2495,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2503,
+                  "scope": 2497,
                   "src": "1385:4:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -662,7 +662,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2500,
+                    "id": 2494,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1385:4:4",
@@ -677,7 +677,7 @@
               ],
               "src": "1384:6:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1331:60:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -686,7 +686,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2508,
+            "id": 2502,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -694,22 +694,22 @@
             "name": "GetFileHash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2504,
+              "id": 2498,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1453:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2507,
+              "id": 2501,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2506,
+                  "id": 2500,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2508,
+                  "scope": 2502,
                   "src": "1479:6:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -718,7 +718,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2505,
+                    "id": 2499,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1479:6:4",
@@ -733,7 +733,7 @@
               ],
               "src": "1478:8:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1433:54:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -742,7 +742,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2513,
+            "id": 2507,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -750,22 +750,22 @@
             "name": "GetMetadataHash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2509,
+              "id": 2503,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1553:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2512,
+              "id": 2506,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2511,
+                  "id": 2505,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2513,
+                  "scope": 2507,
                   "src": "1579:6:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -774,7 +774,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2510,
+                    "id": 2504,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1579:6:4",
@@ -789,7 +789,7 @@
               ],
               "src": "1578:8:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1529:58:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -798,7 +798,7 @@
           {
             "body": null,
             "documentation": "////////////// get functions for testing",
-            "id": 2520,
+            "id": 2514,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -806,15 +806,15 @@
             "name": "GetIndexOfReceipt",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2516,
+              "id": 2510,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2515,
+                  "id": 2509,
                   "name": "receipt",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2520,
+                  "scope": 2514,
                   "src": "1665:15:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -823,7 +823,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2514,
+                    "id": 2508,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1665:7:4",
@@ -840,15 +840,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2519,
+              "id": 2513,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2518,
+                  "id": 2512,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2520,
+                  "scope": 2514,
                   "src": "1705:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -857,7 +857,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2517,
+                    "id": 2511,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1705:4:4",
@@ -872,7 +872,7 @@
               ],
               "src": "1704:10:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1638:77:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -881,7 +881,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2525,
+            "id": 2519,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -889,22 +889,22 @@
             "name": "GetAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2521,
+              "id": 2515,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1737:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2524,
+              "id": 2518,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2523,
+                  "id": 2517,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2525,
+                  "scope": 2519,
                   "src": "1763:7:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -913,7 +913,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2522,
+                    "id": 2516,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1763:7:4",
@@ -928,7 +928,7 @@
               ],
               "src": "1762:9:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1718:54:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -937,7 +937,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2530,
+            "id": 2524,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -945,22 +945,22 @@
             "name": "NotDeleted",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2526,
+              "id": 2520,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1794:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2529,
+              "id": 2523,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2528,
+                  "id": 2522,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2530,
+                  "scope": 2524,
                   "src": "1820:4:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -969,7 +969,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2527,
+                    "id": 2521,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "1820:4:4",
@@ -984,14 +984,14 @@
               ],
               "src": "1819:6:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1775:51:4",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 2532,
+        "scope": 2526,
         "src": "319:1510:4"
       }
     ],
@@ -1001,14 +1001,14 @@
     "absolutePath": "/Users/alexandriapawlik/Documents/Dev/AFGroup/fileVerificationContracts/contracts/interfaces/IFile.sol",
     "exportedSymbols": {
       "IFile": [
-        2531
+        2525
       ]
     },
-    "id": 2532,
+    "id": 2526,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 2463,
+        "id": 2457,
         "literals": [
           "solidity",
           "^",
@@ -1021,10 +1021,10 @@
       {
         "absolutePath": "/Users/alexandriapawlik/Documents/Dev/AFGroup/fileVerificationContracts/contracts/FileRegistry.sol",
         "file": "../FileRegistry.sol",
-        "id": 2464,
+        "id": 2458,
         "nodeType": "ImportDirective",
-        "scope": 2532,
-        "sourceUnit": 1852,
+        "scope": 2526,
+        "sourceUnit": 1846,
         "src": "201:29:4",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1035,9 +1035,9 @@
         "contractKind": "interface",
         "documentation": "//////////////////////////////////////////////////////////////",
         "fullyImplemented": false,
-        "id": 2531,
+        "id": 2525,
         "linearizedBaseContracts": [
-          2531
+          2525
         ],
         "name": "IFile",
         "nodeType": "ContractDefinition",
@@ -1045,7 +1045,7 @@
           {
             "body": null,
             "documentation": "////////////// accessible by blockchain users",
-            "id": 2467,
+            "id": 2461,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1053,19 +1053,19 @@
             "name": "Delete",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2465,
+              "id": 2459,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "407:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2466,
+              "id": 2460,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "418:0:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "392:27:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1074,7 +1074,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2470,
+            "id": 2464,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1082,19 +1082,19 @@
             "name": "Update",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2468,
+              "id": 2462,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "492:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2469,
+              "id": 2463,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "508:0:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "477:32:4",
             "stateMutability": "pure",
             "superFunction": null,
@@ -1103,7 +1103,7 @@
           {
             "body": null,
             "documentation": "////////////// called by members of receipt array",
-            "id": 2477,
+            "id": 2471,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1111,15 +1111,15 @@
             "name": "AddReceipt",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2473,
+              "id": 2467,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2472,
+                  "id": 2466,
                   "name": "ReceiptContractAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2477,
+                  "scope": 2471,
                   "src": "642:30:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1128,7 +1128,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2471,
+                    "id": 2465,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "642:7:4",
@@ -1145,15 +1145,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2476,
+              "id": 2470,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2475,
+                  "id": 2469,
                   "name": "ReceiptDT",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2477,
+                  "scope": 2471,
                   "src": "692:16:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1162,7 +1162,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2474,
+                    "id": 2468,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "692:6:4",
@@ -1177,7 +1177,7 @@
               ],
               "src": "691:18:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "622:88:4",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1186,7 +1186,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2484,
+            "id": 2478,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1194,15 +1194,15 @@
             "name": "GetReceiptDTAtIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2480,
+              "id": 2474,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2479,
+                  "id": 2473,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2484,
+                  "scope": 2478,
                   "src": "816:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1211,7 +1211,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2478,
+                    "id": 2472,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "816:4:4",
@@ -1228,15 +1228,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2483,
+              "id": 2477,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2482,
+                  "id": 2476,
                   "name": "at",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2484,
+                  "scope": 2478,
                   "src": "849:9:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1245,7 +1245,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2481,
+                    "id": 2475,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "849:6:4",
@@ -1260,7 +1260,7 @@
               ],
               "src": "848:11:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "787:73:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1269,7 +1269,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2491,
+            "id": 2485,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1277,15 +1277,15 @@
             "name": "GetReceiptAddressBefore",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2487,
+              "id": 2481,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2486,
+                  "id": 2480,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2491,
+                  "scope": 2485,
                   "src": "1066:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1294,7 +1294,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2485,
+                    "id": 2479,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1066:4:4",
@@ -1311,15 +1311,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2490,
+              "id": 2484,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2489,
+                  "id": 2483,
                   "name": "last",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2491,
+                  "scope": 2485,
                   "src": "1099:12:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1328,7 +1328,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2488,
+                    "id": 2482,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1099:7:4",
@@ -1343,7 +1343,7 @@
               ],
               "src": "1098:14:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1033:80:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1352,7 +1352,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2498,
+            "id": 2492,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1360,15 +1360,15 @@
             "name": "GetReceiptAddressAtIndex",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2494,
+              "id": 2488,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2493,
+                  "id": 2487,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2492,
                   "src": "1246:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1377,7 +1377,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2492,
+                    "id": 2486,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1246:4:4",
@@ -1394,15 +1394,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2497,
+              "id": 2491,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2496,
+                  "id": 2490,
                   "name": "at",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2498,
+                  "scope": 2492,
                   "src": "1277:10:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1411,7 +1411,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2495,
+                    "id": 2489,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1277:7:4",
@@ -1426,7 +1426,7 @@
               ],
               "src": "1276:12:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1212:77:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1435,7 +1435,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2503,
+            "id": 2497,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1443,22 +1443,22 @@
             "name": "GetNumberOfReceipts",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2499,
+              "id": 2493,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1359:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2502,
+              "id": 2496,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2501,
+                  "id": 2495,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2503,
+                  "scope": 2497,
                   "src": "1385:4:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1467,7 +1467,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2500,
+                    "id": 2494,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1385:4:4",
@@ -1482,7 +1482,7 @@
               ],
               "src": "1384:6:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1331:60:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1491,7 +1491,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2508,
+            "id": 2502,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1499,22 +1499,22 @@
             "name": "GetFileHash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2504,
+              "id": 2498,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1453:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2507,
+              "id": 2501,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2506,
+                  "id": 2500,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2508,
+                  "scope": 2502,
                   "src": "1479:6:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1523,7 +1523,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2505,
+                    "id": 2499,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1479:6:4",
@@ -1538,7 +1538,7 @@
               ],
               "src": "1478:8:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1433:54:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1547,7 +1547,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2513,
+            "id": 2507,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1555,22 +1555,22 @@
             "name": "GetMetadataHash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2509,
+              "id": 2503,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1553:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2512,
+              "id": 2506,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2511,
+                  "id": 2505,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2513,
+                  "scope": 2507,
                   "src": "1579:6:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1579,7 +1579,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2510,
+                    "id": 2504,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1579:6:4",
@@ -1594,7 +1594,7 @@
               ],
               "src": "1578:8:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1529:58:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1603,7 +1603,7 @@
           {
             "body": null,
             "documentation": "////////////// get functions for testing",
-            "id": 2520,
+            "id": 2514,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1611,15 +1611,15 @@
             "name": "GetIndexOfReceipt",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2516,
+              "id": 2510,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2515,
+                  "id": 2509,
                   "name": "receipt",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2520,
+                  "scope": 2514,
                   "src": "1665:15:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1628,7 +1628,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2514,
+                    "id": 2508,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1665:7:4",
@@ -1645,15 +1645,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 2519,
+              "id": 2513,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2518,
+                  "id": 2512,
                   "name": "idx",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2520,
+                  "scope": 2514,
                   "src": "1705:8:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1662,7 +1662,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 2517,
+                    "id": 2511,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1705:4:4",
@@ -1677,7 +1677,7 @@
               ],
               "src": "1704:10:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1638:77:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1686,7 +1686,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2525,
+            "id": 2519,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1694,22 +1694,22 @@
             "name": "GetAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2521,
+              "id": 2515,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1737:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2524,
+              "id": 2518,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2523,
+                  "id": 2517,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2525,
+                  "scope": 2519,
                   "src": "1763:7:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1718,7 +1718,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 2522,
+                    "id": 2516,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "1763:7:4",
@@ -1733,7 +1733,7 @@
               ],
               "src": "1762:9:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1718:54:4",
             "stateMutability": "view",
             "superFunction": null,
@@ -1742,7 +1742,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 2530,
+            "id": 2524,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1750,22 +1750,22 @@
             "name": "NotDeleted",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 2526,
+              "id": 2520,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1794:2:4"
             },
             "payable": false,
             "returnParameters": {
-              "id": 2529,
+              "id": 2523,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 2528,
+                  "id": 2522,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 2530,
+                  "scope": 2524,
                   "src": "1820:4:4",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1774,7 +1774,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 2527,
+                    "id": 2521,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "1820:4:4",
@@ -1789,14 +1789,14 @@
               ],
               "src": "1819:6:4"
             },
-            "scope": 2531,
+            "scope": 2525,
             "src": "1775:51:4",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 2532,
+        "scope": 2526,
         "src": "319:1510:4"
       }
     ],
@@ -1808,7 +1808,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.10",
-  "updatedAt": "2019-06-17T18:30:30.086Z",
+  "updatedAt": "2019-06-20T13:09:36.309Z",
   "devdoc": {
     "methods": {}
   },
